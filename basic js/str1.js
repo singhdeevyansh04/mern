@@ -15,7 +15,6 @@ const extracPor2 = greeting.slice(7) // would give world
 console.log(extracPor2)
 
 // using -ve indices:
-
 const extracPor3 = greeting.slice(-5) // would give world
 console.log(extracPor3);
 
@@ -29,7 +28,7 @@ console.log(extracPor5);
 // split method: coneverts string to array
 
 const str = 'hello world'
-const strArr = str.split(' ') // split method take 1st argument which basically is a seprator that means on what basis aaray elements should be seprated like in aor case hello world has a space in bw so hello will be one elements of array and world would be another element
+const strArr = str.split(' ') // split method take 1st argument which basically is a seprator that means on what basis aaray elements should be seprated like in our case hello world has a space in bw so hello will be one elements of array and world would be another element..     
 console.log(strArr)
 
 const str8 = 'hello,world,deevyansh';
@@ -150,7 +149,7 @@ Here’s why:
 You’ve defined an object obj with two properties: a and b.
 When you convert this object to a string using String(obj), JavaScript implicitly calls the toString() method on the object.
 The default implementation of toString() for objects returns the string [object Object].
-So, the console.log(strObj) statement will print [object Object] to the console. If you want to display the actual contents of the object, you’ll need to access its properties explicitly (e.g., console.log(obj.a) or console.log(obj.b)). 😊
+So, the console.log(strObj) statement will print [object Object] to the console. If you want to display the actual contents of the object, you’ll need to access its properties explicitly (e.g., console.log(obj.a) or console.log(obj.b)). 
  */
 console.log(typeof(strObj))
 console.log(typeof obj) 
